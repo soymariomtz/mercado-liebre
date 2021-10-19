@@ -18,3 +18,6 @@ app.use(express.static("public"));
 app.listen(PUERTO, () => {
   console.log(`Server ${PUERTO} está UP`);
 });
+app.listen(process.env.PORT || 3000, function () {
+  console.log("Servidor Corriendo en el puerto 3000");
+});
