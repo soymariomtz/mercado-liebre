@@ -15,9 +15,7 @@ header {
 .logo {
   width: 100px;
 }
-nav {
-  display: none;
-}
+
 nav a {
   color: #20202099;
 }
@@ -193,7 +191,11 @@ footer div p {
   color: #666;
   margin-top: 5px;
 }
-
+@media (max-width: 375px) {
+  nav {
+    display: none;
+  }
+}
 @media (min-width: 425px) {
   .description {
     opacity: 0;
