@@ -74,12 +74,20 @@ main {
 .formFlex button {
   background-color: #4349b5;
   color: white;
-  padding: 10px;
-  font-size: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
   margin-top: 20px;
   cursor: pointer;
 }
-
+.formFlex button:hover {
+  background-color: #0022aa;
+  transition: all 450ms;
+}
+.formFlex h1 {
+  margin-bottom: 50px;
+  font-size: 45px;
+  color: #4349b5;
+}
 label {
   display: block;
   font-size: 18px;
@@ -260,10 +268,10 @@ footer div p {
     justify-content: space-around;
   }
   .articles {
-    width: 49%;
+    width: 45%;
   }
   article:hover .divArticle i {
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
     transition: all 500ms;
   }
 }
@@ -306,6 +314,9 @@ footer div p {
     flex-wrap: wrap;
     text-align: center;
     margin-top: 20px;
+  }
+  footer i:hover {
+    color: #5297ff;
   }
   .footerDiv {
     width: 30%;
