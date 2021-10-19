@@ -141,6 +141,8 @@ article {
 }
 .description {
   font-size: 16px;
+  margin-top: 5px;
+  color: #666;
 }
 button,
 input {
@@ -197,11 +199,6 @@ footer div p {
   }
 }
 @media (min-width: 425px) {
-  .description {
-    opacity: 0;
-    margin-top: 5px;
-    color: #666;
-  }
   nav {
     display: none;
   }
@@ -291,6 +288,11 @@ footer div p {
   }
 }
 @media (min-width: 1200px) {
+  .description {
+    opacity: 0;
+    margin-top: 5px;
+    color: #666;
+  }
   article:hover .divArticle .description {
     opacity: 1;
     transition: all 500ms;
